@@ -1,92 +1,105 @@
-# slackbot_responses
-A list of Slackbot responses for the Splunk User Groups Slack team:
+# slackbot commands at splunk-usergroups.slack.com
 
-!triggers - Um, this
+`!triggers` - Um, this
 
-!channels - List of popular channels
+## Slack
 
-!channels-bonus - List of bonus channels
+`!channels` - List of popular channels
 
-!channels-advanced - List of advanced channels
+`!channels-bonus` - List of bonus channels
 
-!invite - Link to the invite signup for this Slack
+`!channels-advanced` - List of advanced channels
 
-!joincommunity - How to join the Splunk community
+`!invite` - Link to the invite signup for this Slack
 
-!format - formating your messages for readability in Slack
+`!joincommunity` - How to join the Splunk community
 
-!questions - On how to ask questions effectively
+`!format` - formating your messages for readability in Slack
 
-!xpost - response on how to cross post
+`!questions` - On how to ask questions effectively
 
-!upgrade - upgrading your deployment
+`!xpost` - response on how to cross post
 
-!setup.xml - creating setup pages for an app
+## Config Files
 
-!cheatsheets - Some cheatsheets are that useful for Splunk admins
+`!spec list` - Link to the Configuration file reference
 
-!onboarding - Splunk data on-boarding cheatsheet
+`!spec <configuration file name without .conf>` - Link to the .spec page for the configuration file
 
-!time - Time formatting testing tool
+e.g. 
+`!spec props` for props.conf
 
-!CIM - Splunk docs for the Common Information Model
+## SPL Commands
 
-!cron - Crontab testing tool
+`!spl list` - Link to the search commands reference
 
-!props - cheatsheets on props.conf configs
+`!spl`<command>` - Link to the docs page for the given command
 
-!strptime - Splunk docs on time formats
+e.g. 
+`!spl timechart` for the timechart command
 
-!precedence - Splunk docs on configuration file precedence
+## Mixed Splunk knowledge
 
-!ports - Common Splunk network ports diagrams
+`!anonymize` - Anonymizing data
 
-!spl list - Link to the search commands reference
+`!answers` - Request to move to Splunk Answers
 
-!spl <command> - Link to the docs page for the given command
+`!cheatsheets` - Some cheatsheets are that useful for Splunk admins
 
-!spec list - Link to the Configuration file reference
+`!compatibility` - Splunk docs on forwarder->indexer compatibility
 
-!spec <configuration file name> - Link to the .spec page for the given configuration file
-  
-!stats - Stats functions
-  
-!eval - Eval functions
-  
-!not - Splunk docs on NOT expressions
-  
-!masa - The Masa diagram of Splunk pipelines and processors
-  
-!missinghosts - answers to the "how do I know when something has stopped sending events"
-  
-!negative - great post on proving a negative in Splunk
-  
-!devlicense - How to get a developer license
-  
-!compatibility - Splunk docs on forwarder->indexer compatibility
-  
-!routing - Splunk docs on routing and filtering data
-  
-!anonymize - Anonymizing data
-  
-!xblueprint - exam blueprints
-  
-!systemd - info on Splunk and systemd
-  
-!eol - Splunk Software Support Policy, including End of Support information
-  
-!pwreset - How to reset you Splunk Enterprise password
-  
-!decrypt - How to decrypt Splunk passwords
-  
-!splunksecrets - Useful project for decrypting Splunk passwords
-  
-!sizing - The not-Splunk-supported sizing tool
-  
-!openssl - Common OpenSSL commands
-  
-!csr - Generating CSRs
-  
-!answers - Request to move to Splunk Answers
-  
-!windows - Answers post on why Splunk infrastructure on Windows is not advised
+`!CIM` - Splunk docs for the Common Information Model
+
+`!cron` - Crontab testing tool
+
+`!csr` - Generating CSRs
+
+`!decrypt` - How to decrypt Splunk passwords
+
+`!devlicense` - How to get a developer license
+
+`!eol` - Splunk Software Support Policy, including End of Support information
+
+`!eval` - Eval functions
+
+`!masa` - The Masa diagram of Splunk pipelines and processors
+
+`!missinghosts` - answers to the "how do I know when something has stopped sending events"
+
+`!negative` - great post on proving a negative in Splunk
+
+`!not` - Splunk docs on NOT expressions
+
+`!onboarding` - Splunk data on-boarding cheatsheet
+
+`!openssl` - Common OpenSSL commands
+
+`!ports` - Common Splunk network ports diagrams
+
+`!precedence` - Splunk docs on configuration file precedence
+
+`!props` - cheatsheets on props.conf configs
+
+`!pwreset` - How to reset you Splunk Enterprise password
+
+`!routing` - Splunk docs on routing and filtering data
+
+`!setup.xml` - creating setup pages for an app
+
+`!sizing` - The not-Splunk-supported sizing tool
+
+`!splunksecrets` - Useful project for decrypting Splunk passwords
+
+`!stats` - Stats functions
+
+`!strptime` - Splunk docs on time formats
+
+`!systemd` - info on Splunk and systemd
+
+`!time` - Time formatting testing tool
+
+`!upgrade` - upgrading your deployment
+
+`!windows` - Answers post on why Splunk infrastructure on Windows is not advised
+
+`!xblueprint` - exam blueprints
