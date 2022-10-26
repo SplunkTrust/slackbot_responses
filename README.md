@@ -61,6 +61,7 @@ e.g.
 `!eol` - Splunk Software Support Policy, including End of Support information
 
 `!eval` - Eval functions
+`!join` - Post on how to compare fields over muiltple sourcetypes without using `join`, `append`, or a subsearch
 
 `!masa` - The Masa diagram of Splunk pipelines and processors
 
